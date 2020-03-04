@@ -1,0 +1,27 @@
+.done-task {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+    .content-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    .ui.button.secondary {
+        align-self: flex-start;
+    }
+}
